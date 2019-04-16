@@ -1,0 +1,41 @@
+{
+  "name": "node-elastic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^2.6.1",
+    "elasticsearch": "^15.2.0",
+    "express": "^4.16.4",
+    "express-sanitizer": "^1.0.4",
+    "express-session": "^1.15.6",
+    "express-uncapitalize": "^1.0.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongolastic": "^0.9.8",
+    "mongoosastic": "^4.4.1",
+    "mongoose": "^5.4.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "python-shell": "^1.0.7",
+    "utf8": "^3.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+<html>
+    <style>
+        body{
+            font-size: 17px;
+        }
+    </style>
+    <body>
+        Bonjour Mme/Mr <b><%= userToSend.fullname %></b>,<br>
+            Félicitations votre compte a été créé avec succès.<br>
+            Pour activer votre compte, veuillez cliquer sur le lien ci dessous ou copier/coller dans votre navigateur internet.<br>
+            <a href=<%= userToSend.link %>><%= userToSend.link %></a><br>
+            ---------------<br>
+            Ceci est un mail automatique, Merci de ne pas y répondre.
+    </body>
+</html>
